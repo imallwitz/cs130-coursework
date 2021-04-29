@@ -5,13 +5,34 @@
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 i{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: skyblue;
 }
 header, section {
     padding: 20px;
 }
+h2 {
+    border-bottom: 5px skyblue solid;
+}
+section a{
+    text-decoration: none;
+    color: inherit;
+}
+section a:hover{
+    color: skyblue;
+}
 p, li {
     line-height: 1.5em;
+}
+i {
+    padding-right: 5px;
 }
 
 #inspiration {
