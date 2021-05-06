@@ -4,33 +4,55 @@
 }
 
 body {
-    margin: 0px;
+    margin: 40px;
     font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
+
+header {
+    align-self: center;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
+
 h1 i{
     padding-left: 10px;
     padding-right: 10px;
     color: skyblue;
 }
+
 header, section {
     padding: 20px;
+    padding-top: 10px;;
 }
+
+section {
+    border: 5px solid #F0F0F0;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px rgb(81, 129, 148);
+}
+
 h2 {
     border-bottom: 5px skyblue solid;
 }
+
 section a{
     text-decoration: none;
     color: inherit;
 }
+
 section a:hover{
     color: skyblue;
 }
+
 p, li {
     line-height: 1.5em;
 }
+
 i {
     padding-right: 5px;
 }
